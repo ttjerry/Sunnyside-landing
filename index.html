@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mobie.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <div class="first-section">
+    <div class="top-navigation">
+      <div class="logo">
+        <img src="/images/logo.svg" alt="">
+        <a href="#" class="toggleMenu" onclick="toggle()"><img src="./images/icon-hamburger.svg" alt=""></a>
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="route route1" onclick="scroll1()">About</a></li>
+          <li><a href="#services" class="route route2">Services</a></li>
+          <li><a href="#projects" class="route route3">Projects</a></li>
+          <li><a href="#contact" class="route route4">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="home" class="body-1">
+      <h2 class="sudden-text"> We are creatives</h2>
+      <div class="arrow-container">
+        <img src="./images/icon-arrow-down.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="second-section">
+    <div class="left-ss">
+      <h1 class="lss-heading"> Transform your brand</h1>
+      <h4 class="sometext">
+        We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </h4>
+      <div class="lm">
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+    <div class="right-ss">
+      <!-- <img src="./images/desktop/image-transform.jpg" alt=""> -->
+    </div>
+  </div>
+
+  <div class="third-section">
+    <div class="left-ts">
+      <!-- <img src="./images/desktop/image-transform.jpg" alt=""> -->
+    </div>
+    <div class="right-ts">
+      <h1 class="rts-heading">Stand out to the right audience</h1>
+      <h4 class="sometext2">
+        Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+        build
+        and extend your brand in digital places.
+      </h4>
+      <a href="#" class="learnMore">Learn more</a>
+    </div>
+  </div>
+
+  <div id="services" class="fourth-section">
+
+    <div class="fs-left">
+      <div class="fs-left-inner">
+        <h1 class="fs-heading">Graphic design</h1>
+        <h3 class="fs-text">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential
+          clients’ attention.
+        </h3>
+      </div>
+    </div>
+
+    <div class="fs-right">
+      <div class="fs-right-inner">
+        <h1 class="fsr-heading"> Photography</h1>
+        <h3 class="fsr-text">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="fifth-section">
+    <h3 class="cl">Client testimonials</h3>
+    <div class="section-component">
+      <div class="ts-section">
+        <div class="ts-image-1">
+          <img src="./images/image-emily.jpg" class="image-profile" alt="">
+        </div>
+        <div class="ts-text1">
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+          hit.
+        </div>
+        <div class="ts-text2">
+          <div class="ts-name1">
+            Emily R.
+          </div>
+          <div class="ts-position1">
+            Marketing Director
+          </div>
+        </div>
+      </div>
+
+      <div class="ts-section2">
+        <div class="ts-image-1">
+          <img src="./images/image-thomas.jpg" class="image-profile" alt="">
+        </div>
+        <div class="ts-text1">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+          enjoyable experience.
+        </div>
+        <div class="ts-text2">
+          <div class="ts-name1">
+            Thomas S.
+          </div>
+          <div class="ts-position1">
+            Chief Operating Officer
+          </div>
+        </div>
+      </div>
+
+      <div class="ts-section3">
+        <div class="ts-image-1">
+          <img src="./images/image-jennie.jpg" class="image-profile" alt="">
+        </div>
+        <div class="ts-text1">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </div>
+        <div class="ts-text2">
+          <div class="ts-name1">
+            Jennie F.
+          </div>
+          <div class="ts-position1">
+            Business Owner
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-six">
+    <div class="section6-top">
+      <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" class="s6-img">
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="" class="s6-img">
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="" class="s6-img">
+      <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" class="s6-img">
+    </div>
+    <footer id="contact" class="section6-bottom">
+      <div class="footer-header">
+        <div class="footer-img">sunnyside</div>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </div>
+      <div class="socials">
+        <img src="./images/icon-facebook.svg" alt="" class="footer-socials">
+        <img src="./images/icon-instagram.svg" alt="" class="footer-socials">
+        <img src="./images/icon-twitter.svg" alt="" class="footer-socials">
+        <img src="./images/icon-pinterest.svg" alt="" class="footer-socials">
+      </div>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

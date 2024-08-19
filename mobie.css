@@ -1,0 +1,330 @@
+@media screen and (max-width: 450px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-navigation {
+        width: 100vw;
+        padding: 40px 20px;
+        position: relative;
+    }
+
+    .logo {
+        padding: 0 20px;
+        width: 85vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* center to the middle of the viewport */
+
+    .nav-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 100vw;
+        position: absolute;
+        background-color: white;
+        height: 300px;
+        z-index: 999;
+        top: 95px;
+        transition: all ease-in-out .5s;
+    }
+
+    .nav-menu.toggleM {
+        left: 10vw;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        position: relative;
+        gap: 45px;
+        top: 5px;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .nav-menu ul li .route1 {
+        color: #89868B;
+        ;
+    }
+
+    .nav-menu ul li a {
+        color: #89868B;
+    }
+
+    .nav-menu ul li .route4 {
+        background-color: #FBD700;
+    }
+
+    .first-section {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* top section starts */
+
+    .first-section {
+        background-size: cover;
+    }
+
+    .body-1 .sudden-text {
+        top: 80px;
+        letter-spacing: 8px;
+        line-height: 60px;
+    }
+
+    .body-1 .arrow-container {
+        top: 180px;
+    }
+
+    /* second section start */
+
+    .second-section {
+        flex-direction: column-reverse;
+    }
+
+    .left-ss {
+        padding: 10px 0;
+        gap: 10px;
+        justify-content: space-around;
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .lss-heading {
+        width: 70%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .sometext {
+        font-size: 15px;
+        width: 70%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .left-ss .lm {
+        margin: 0;
+        text-align: center;
+    }
+
+    .left-ss .lm a {
+        margin: 0;
+    }
+
+    .right-ss {
+        width: 100vw;
+        height: 45vh;
+    }
+
+    /* second section end */
+
+    /* third section starts */
+
+    .third-section {
+        flex-direction: column;
+    }
+
+    .left-ts {
+        width: 100vw;
+        height: 45vh;
+    }
+
+    .right-ts {
+        padding: 10px 0;
+        gap: 10px;
+        justify-content: space-around;
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .right-ts .rts-heading {
+        width: 70%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .right-ts .sometext2 {
+        font-size: 15px;
+        width: 80%;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* third section ends */
+
+    /* fourth section begins */
+
+    .fourth-section {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .fs-left {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .fs-left-inner {
+        display: flex;
+        justify-content: center;
+        top: 60%;
+        align-items: center;
+    }
+
+    .fs-left-inner .fs-heading {
+        text-align: center;
+        color: #285B4E;
+    }
+
+
+    .fs-left-inner .fs-text {
+        text-align: center;
+        width: 70%;
+        line-height: 20px;
+        color: #285B4E;
+    }
+
+    .fs-right {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .fs-right-inner {
+        top: 20%;
+    }
+
+    .fs-right-inner .fsr-heading {
+        color: #104D64;
+    }
+
+    .fs-right-inner .fsr-text {
+        color: #104D64;
+    }
+
+    /* end of fourth section */
+
+    /* start of fifth section */
+    .fifth-section {
+        justify-content: start;
+        gap: 20px;
+        padding: 20px 0;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .fifth-section .cl {
+        width: 100%;
+        letter-spacing: 3px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .section-component {
+        width: 80%;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ts-text1 {
+        width: 70%;
+        text-align: center;
+        line-height: 15px;
+        font-size: 11px;
+    }
+
+    .ts-section .ts-text1 {
+        font-family: Barlow-light;
+        font-weight: 600;
+        color: var(--Dark-desaturated-cyan);
+        width: 100%;
+        text-align: center;
+    }
+
+    .ts-section2 .ts-text1 {
+        font-family: Barlow-light;
+        font-weight: 600;
+        color: var(--Dark-desaturated-cyan);
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .ts-section3 .ts-text1 {
+        font-family: Barlow-light;
+        font-weight: 600;
+        color: var(--Dark-desaturated-cyan);
+        width: 100%;
+        text-align: center;
+    }
+
+    .ts-section,
+    .ts-section2,
+    .ts-section3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* padding: 20px; */
+        width: 100%;
+    }
+
+    .ts-text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .image-profile {
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    .ts-name1 {
+        font-family: barlow-light;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .ts-position1 {
+        font-family: barlow-light;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        color: var(--Grayish-blue);
+
+    }
+
+
+    .section-six {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .section-six .section6-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 50vh;
+    }
+
+    .section-six .section6-top img {
+        flex-wrap: wrap;
+        width: 50vw;
+        height: 25vh;
+    }
+
+
+}
